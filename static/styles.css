@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('/fonts/Inter-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Inter-Thin';
+    src: url('/fonts/Inter-Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Inter-Thin-Italic';
+    src: url('/fonts/Inter-ThinItalic.otf') format('opentype');
+}
+
+
+body {
+    font-family: 'Inter-Thin', sans-serif;
+  }
+
+h1 {
+    font-family: 'Inter-SemiBold', sans-serif;
+}
+
+em {
+    font-family: 'Inter-Thin-Italic', sans-serif; 
+}
+  .container {
+    max-width: 1460px;
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .child1 {
+    max-width: 675px;
+    padding: 60px;
+    padding-top: 100px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+  
+  .header h3 {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  
+.content {
+    font-size: 1.5rem;
+    line-height: 1.5;
+} 
+
+hr {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.icons {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+
+}
+.icon {
+    font-size: 24px;
+    color: #333;
+    margin: 5px;
+}
+
+
+i:hover {
+    color: #f1c40f; /* change color on hover */
+    transform: scale(1.2); /* Scale up the icon by 20% on hover */
+    transition: all 0.2s ease-in-out; /* Add a smooth transition effect */
+  }
+
+  .highlight-bottom {
+    display: inline-block;
+    background-image: linear-gradient(to top, #f1c40f 25%, transparent 25%);
+    background-size: 100% 125%;
+    background-position: 0 100%;
+    transition: all 0.15s ease-in-out;
+    
+  }
+  
+  .highlight-bottom:hover {
+    background-size: 100% 400%;
+    background-position: 0 100%;
+    transition: all 0.1s ease-in-out;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
