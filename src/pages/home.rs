@@ -32,7 +32,7 @@ impl Component for Home {
                         <h3>{"I'm Colin Finkbeiner."}</h3>
                     </div>
                     <div class="content">
-                        <p>{"I am an incoming Ph.D. student in Computer Science at the "}
+                        <p>{"I am a Ph.D. student in Computer Science at the "}
                         <em>{"University of Connecticut"}</em> 
                         {" advised by Prof. Ghada Almashaqbeh. My research interest lies at the intersection of cryptography, privacy systems, and mechanism design specifically in the lens of blockchains and other distributed systems."}</p>
                     </div>
